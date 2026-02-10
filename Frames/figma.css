@@ -179,7 +179,7 @@ span{
    font-family: sans-serif;
 }
 .section_4{
-    background-color: #293241;
+    background-color: #2F3746;
     padding: 40px;
 }
 .company_logo h1{
@@ -200,4 +200,190 @@ span{
     align-items: center;
     gap: 40px;
     margin-top: 40px;
+}
+.project{
+    background-color: #293241;
+    padding: 150px;
+}
+.heading{
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-left: 100px;
+}
+.heading hr{
+    border-top: 3px solid #EE6C4D;
+    width: 187px;
+}
+.work{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.duration{
+    position: relative;
+    bottom: 25px;
+    border: 1px solid #3D5A80;
+    left: 260px;
+    width: 52px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #3D5A80;
+}
+ .see{
+    border: 1px solid #EE6C4D;
+    height: 48px;
+    width: 187px;
+    margin-left: 530px;
+    margin-top: 100px;
+    background-color: #293241;
+    color: white;
+ }
+ .client{
+    text-align: center;
+    background-color: #293241;
+    line-height: 1.9;
+    color: white;
+    font-family: sans-serif;
+    padding: 40px;
+ }
+ .client hr{
+    border-top: 3px solid #EE6C4D;
+    width: 157px;
+    margin-left: 630px;
+ }
+.bigbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.box1{
+    width: 475px;
+    height: 180px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #000000;
+    
+}
+.box1 h1{
+    margin-right: 300px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.box1 h2{
+    margin-right: 295px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box1 p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+.box2{
+    width: 475px;
+    height: 180px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #000000;
+}
+.box2 h1{
+    margin-right: 300px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.box2 h2{
+    margin-right: 295px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.box2 p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+.circle{
+    display: flex;
+    gap: 15px;
+    margin-left: 650px;
+}
+.circle h1{
+    border: 2px solid gray;
+    height: 11px;
+    width: 11px;
+    border-radius: 8px;
+    background-color: #EE6C4D;
+}
+.circle p{
+    border: 2px solid gray;
+    height: 11px;
+    width: 11px;
+    border-radius: 8px;
+}
+.container_1{
+    height: 483px;
+    background-color: #3D5A80;
+    color: white;
+    padding: 150px;
+}
+.container_1 hr{
+    border-top: 3px solid #EE6C4D;
+    width: 300px;
+    margin-top: 10px;
+}
+.form{
+    margin-top: 100px;
+}
+.name1{
+    width: 504px;
+    height: 48px;
+    background-color: #26384F;
+}
+.email1{
+    width: 504px;
+    height: 48px;
+    margin-left: 10px;
+    background-color: #26384F;
+}
+.text{
+    width: 1025px;
+    height: 180px;
+    margin-top: 30px;
+    background-color: #26384F;
+}
+.send{
+    border: 1px solid #EE6C4D;
+    width: 150px;
+    height: 48px;
+    margin-top: 30px;
+    background-color: #EE6C4D;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.footer1{
+    background-color: #26384F;
+    height: 100px;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+.footer h1{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footer h3{
+    margin-top: 30px;
+}
+.footer p{
+    margin-top: 30px;
+    margin-right: 100px;
 }
