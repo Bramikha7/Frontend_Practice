@@ -123,12 +123,18 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 60px;
 }
 .tool1{
     /* padding: 40px; */
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+
 }
 .tool1 img{
     border-radius: 50px;
+
 }
 .tool2{
     /* padding: 40px; */
@@ -136,29 +142,44 @@ span{
 }
 .tool2 img{
     border-radius: 50px;
-    /* margin-bottom: 50px; */
+    margin-top: 50px;
 }
 .tool3{
-    /* padding: 40px; */
+    position: relative;
+    left: 100px;
 }
 .tool3 img{
     border-radius: 50px;
 }
 .tool4 img{
     border-radius: 50px;
+  
+     
+
 }
 .tool4{
     /* padding: 40px; */
+    position: relative;
+    right: 300px;
+    top: 300px;
 }
 .tool5 img{
     border-radius: 50px;
+    /* margin-right: 100px; */
+    position: relative;
+    top: 80px;
+
+}
+.tool5 span{
+    margin-right: 200px;
 }
 .tool5{
-    /* padding: 40px; */
+    margin-top: 150px;
+    gap: 30px;
+    /* margin-right: 100px; */
 }
 .vue{
-    display: flex;
-    /* justify-content: space-between; */
+   
 }
 .section_3{
     width: 478px;
