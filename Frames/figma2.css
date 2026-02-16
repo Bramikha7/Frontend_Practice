@@ -60,57 +60,40 @@ span{
     display: flex;
     justify-content: space-around;
 }
-.right1{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    /* padding: 70px; */
-}
 .about2{
     width:371px;
     height: 308px;
 }
 .right1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.tool1{
-    /* padding: 40px; */
-}
-.tool1 img{
-    border-radius: 50px;
-}
-.tool2{
-    /* padding: 40px; */
-    margin-top: 50px;
-}
-.tool2 img{
-    border-radius: 50px;
-    /* margin-bottom: 50px; */
-}
-.tool3{
-    /* padding: 40px; */
-}
-.tool3 img{
-    border-radius: 50px;
-}
-.tool4 img{
-    border-radius: 50px;
-}
-.tool4{
-    /* padding: 40px; */
-}
-.tool5 img{
-    border-radius: 50px;
-}
-.tool5{
-    /* padding: 40px; */
-}
-.vue{
-    display: flex;
-    /* justify-content: space-between; */
-}
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        grid-template-rows: repeat(3,200px);
+    }
+    .tool1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .tool2{
+      grid-row: 2;
+      grid-column: 2;
+    }
+    .tool3{
+      grid-column: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .tool4{
+         grid-column:1 ;
+         grid-row: 3;
+    }
+    .tool5{
+      grid-column: 3;
+      grid-row: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 .section_3{
     width: 478px;
     height: 344px;

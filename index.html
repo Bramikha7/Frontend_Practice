@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frame</title>
+  </head>
+  <style>
+    .right1{
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        grid-template-rows: repeat(3,200px);
+    }
+    .tool1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .tool2{
+      grid-row: 2;
+      grid-column: 2;
+    }
+    .tool3{
+      grid-column: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .tool4{
+         grid-column:1 ;
+         grid-row: 3;
+    }
+    .tool5{
+      grid-column: 3;
+      grid-row: 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <body>
+    <div class="right1">
+      <div class="tool1">
+        <img
+          src="../assests/html logo img.webp"
+          alt="Image"
+          width="82px"
+          height="82px"
+        />
+      </div>
+      <div class="tool2">
+        <img
+          src="../assests/react logo img.png"
+          alt="Image"
+          width="82px"
+          height="82px"
+        />
+      </div>
+      <div class="tool3">
+        <img
+          src="../assests/css logo img.jpg"
+          alt="Image"
+          width="82px"
+          height="82px"
+        />
+      </div>
+      <br />
+
+      <div class="tool4">
+        <img
+          src="../assests/vuejs.webp"
+          alt="Image"
+          width="82px"
+          height="82px"
+        />
+      </div>
+      <div class="tool5">
+        <img
+          src="../assests/js logo img.png"
+          alt="Image"
+          width="82px"
+          height="82px"
+        />
+      </div>
+    </div>
+  </body>
+</html>

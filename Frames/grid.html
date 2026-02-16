@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_Practice</title>
+    <link rel="stylesheet" href="../Frames/grid.css">
+</head>
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4,200px);
+        grid-template-rows: repeat(3,200px);
+    }
+    .one{
+     
+        background-color: red;
+        grid-column: 1;
+        grid-row: 1 / 4;
+    }
+    .two{
+        grid-column: 2 / 4;
+      
+        background-color: rgb(81, 255, 0);
+    }
+    .three{
+        
+        background-color: rgb(225, 255, 0);
+    }
+    .four{
+      
+        background-color: rgb(140, 0, 255);
+    }
+    .five{
+      
+        background-color: rgb(0, 30, 255);
+    }
+    .six{
+      
+        background-color: rgb(255, 34, 0);
+        grid-row: 2 / 4;
+        grid-column: 4;
+    }
+    .seven{
+      
+        background-color: rgb(255, 0, 247);
+        grid-column: 2;
+        grid-row: 3;
+    }
+    .eight{
+      
+        background-color: rgb(0, 174, 255);
+          grid-column: 3;
+        grid-row: 3;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div1 class="one">1</div1>
+        <div2 class="two">2</div2>
+        <div3 class="three">3</div3>
+        <div4 class="four">4</div4>
+        <!-- <div5 class="five">5</div5> -->
+        <div6 class="six">6</div6>
+        <div7 class="seven">7</div7>
+        <div8 class="eight">8</div8>
+    </div>
+</body>
+</html>
