@@ -45,3 +45,110 @@ body{
 span{
     color: #FDBA0E;
 }
+.form{
+    width: 744px;
+    height: 264px;
+    margin-left: 400px;
+    /* background-color: #e0dddd; */
+    
+}
+.name{
+    width: 336px;
+    height: 48px;
+    background-color: #ccc;
+}
+.email{
+    width: 336px;
+    height: 48px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
+.business{
+    width: 336px;
+    height: 48px;
+    background-color: #ccc;
+}
+.website{
+    width: 336px;
+    height: 48px;
+    margin-left: 10px;
+    background-color: #ccc;
+}
+.btn{
+    width: 188px;
+    height: 48px;
+    border-radius: 7px;
+    border: 1px solid #FDBA0E;
+    margin-bottom: 200px;
+    background-color: #FDBA0E;
+    margin-left: 670px;
+}
+.bar{
+    background: url("../assests/frame_3.png") center/cover no-repeat;
+    /* border: 2px solid; */
+    width: 486px;
+    height: 346px;
+    font-weight: 600;
+    font-size: larger;
+    /* position: absolute; */
+}
+.container{
+    /* position: relative; */
+    left: 40px;
+    top: 10px;
+    padding: 20px;
+     
+
+}
+#file{
+    width: 430px;
+    height: 45px;
+}
+.me h1{
+    color: black;
+    line-height: 2.2;
+    font-family: sans-serif;
+}
+.me{
+    width: 478px;
+    height: 344px;
+}
+.me hr{
+    border-top:4px solid  #FDBA0E;
+}
+.me p{
+   line-height: 1.9;
+   color: black;
+   font-family: sans-serif;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+     
+}
+.section_4{
+    background-color: #FFFFFF;
+    padding: 70px;
+}
+.company_logo h1{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    line-height: 1.9;
+    font-size: 400;
+}
+.company_logo hr{
+    border-top: 3px solid #FDBA0E;
+    width: 132px;
+    margin-left: 640px;
+}
+.logo_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
