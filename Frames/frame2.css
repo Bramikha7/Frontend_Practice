@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+   background-image: 
+        linear-gradient(rgba(47, 24, 147, 0.4), rgba(47, 24, 147, 0.4)),
+        url("../assests/image2.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+.one{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding: 100px;
+}
+.two1{
+    display: flex;
+    justify-content: center;
+}
+.two{
+    text-align: center;
+    color: white;
+    width: 815px;
+    height: 140px;
+    font-weight: 700;
+    font-size: 58px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+}
+.three1{
+    text-align: center;
+    color: white;
+    width: 775px;
+    height: 84px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 50px;
+}
