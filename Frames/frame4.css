@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(rgba(84, 68, 153, 0.4)) ,url("../assests/image2.jpg");
+}
